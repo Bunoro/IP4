@@ -86,7 +86,7 @@ function Pizza(selectedSize,selectedToppings,selectedCrust) {
      });
   
      $('.bu').click(function() {
-      alert("your Order will be ready in 30 minutes,Thank you And Welcome Once Again ")
+      alert("your Order will be ready in 30 minutes, Thank You. Karibu Tena!")
       
      
       
