@@ -58,7 +58,7 @@ function Pizza(selectedSize,selectedToppings,selectedCrust) {
   
   
   $(document).ready(function() {
-    $('#pizza-order').submit(function(event) {
+    $('#Total order').submit(function(event) {
       event.preventDefault();
     
       var size = $("input[name=optradio1]:checked").val();
@@ -85,15 +85,11 @@ function Pizza(selectedSize,selectedToppings,selectedCrust) {
   
      });
   
-     $('.bu').click(function() {
+     $('.but').click(function() {
       alert("your Order will be ready in 30 minutes, Thank You. Karibu Tena!")
       
      
-      
-    
-  
-  
-     });
+    });
    
   
   });
