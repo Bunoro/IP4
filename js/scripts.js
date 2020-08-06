@@ -42,9 +42,8 @@ function Pizza(selectedSize,selectedToppings,selectedCrust) {
   Pizza.prototype.crustCost = function() {
     var crusts = {
     
-      crispy: 100,
-      stuffed: 100,
-      gluten: 100
+      thick: 100,
+      thin: 100,
     };
   
     return crusts[this.selectedCrust];
