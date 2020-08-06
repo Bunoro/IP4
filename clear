@@ -1,0 +1,17 @@
+[33mcommit 171316da96dd84069e278d2f03efb6301e2482ff[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m)[m
+Author: Bunoro <raphsonl@gmail.com>
+Date:   Thu Aug 6 21:05:43 2020 +0300
+
+    add scripts.js file
+
+[33mcommit 05b2d05d56e808a1ab10d719d0541b5ce7fb644e[m
+Author: Bunoro <raphsonl@gmail.com>
+Date:   Thu Aug 6 21:05:19 2020 +0300
+
+    add css file
+
+[33mcommit f5a3d4f49c01b39c896778223a2aa1c14181768e[m
+Author: Bunoro <raphsonl@gmail.com>
+Date:   Thu Aug 6 21:04:48 2020 +0300
+
+    add initial html landing page
