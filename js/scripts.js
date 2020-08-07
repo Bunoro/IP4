@@ -22,11 +22,10 @@ function Pizza(selectedSize,selectedToppings,selectedCrust) {
   Pizza.prototype.toppingsCost = function() {
     var totalToppingsCost = 0;
     var toppings = {
-      peri-peri: 200,  
       pepperoni: 200,
       sausage: 200,
       bacon: 200,
-      extra-cheese: 200,
+      cheese: 200,
       onion: 200,
     };
   
@@ -42,8 +41,9 @@ function Pizza(selectedSize,selectedToppings,selectedCrust) {
   Pizza.prototype.crustCost = function() {
     var crusts = {
     
-      thick: 100,
-      thin: 100,
+      crispy: 100,
+      stuffed: 100,
+      gluten: 100
     };
   
     return crusts[this.selectedCrust];
@@ -58,7 +58,7 @@ function Pizza(selectedSize,selectedToppings,selectedCrust) {
   
   
   $(document).ready(function() {
-    $('#Total order').submit(function(event) {
+    $('#pizza-order').submit(function(event) {
       event.preventDefault();
     
       var size = $("input[name=optradio1]:checked").val();
@@ -85,11 +85,15 @@ function Pizza(selectedSize,selectedToppings,selectedCrust) {
   
      });
   
-     $('.but').click(function() {
-      alert("your Order will be ready in 30 minutes, Thank You. Karibu Tena!")
+     $('.bu').click(function() {
+      alert("your Order will be ready in 30 minutes, Asanti and Karibu Tena!")
       
      
-    });
+      
+    
+  
+  
+     });
    
   
   });
